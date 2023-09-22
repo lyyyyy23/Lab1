@@ -1,0 +1,470 @@
+ERROR - 2023-09-21 14:46:52 --> mysqli_sql_exception: Table 'laboratory1.table_sections' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-21 14:46:52 --> Table 'laboratory1.table_sections' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_sections`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 14:46:53 --> mysqli_sql_exception: Table 'laboratory1.table_sections' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-21 14:46:53 --> Table 'laboratory1.table_sections' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_sections`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 14:46:55 --> mysqli_sql_exception: Table 'laboratory1.table_sections' doesn't exist in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-21 14:46:55 --> Table 'laboratory1.table_sections' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_sections`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:49:20 --> Undefined array key "ID"
+in APPPATH\Controllers\MainController.php on line 42.
+ 1 APPPATH\Controllers\MainController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:52:25 --> Undefined variable $students
+in APPPATH\Controllers\MainController.php on line 55.
+ 1 APPPATH\Controllers\MainController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:53:37 --> Undefined variable $students
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 APPPATH\Controllers\MainController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:54:08 --> Undefined array key "studID"
+in APPPATH\Views\main.php on line 31.
+ 1 APPPATH\Views\main.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studID"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\MainController.php(37): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:54:47 --> Undefined array key "studID"
+in APPPATH\Views\main.php on line 31.
+ 1 APPPATH\Views\main.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studID"', 'C:\\laragon\\www\\Lab1\\app\\Views\\main.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\MainController.php(37): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:55:36 --> Undefined variable $students
+in APPPATH\Controllers\MainController.php on line 61.
+ 1 APPPATH\Controllers\MainController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 14:59:26 --> Undefined variable $students
+in APPPATH\Controllers\MainController.php on line 61.
+ 1 APPPATH\Controllers\MainController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 15:04:36 --> Invalid file: "students.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students', [], true)
+ 3 APPPATH\Controllers\MainController.php(29): view('students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 15:05:04 --> Invalid file: "students.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students', [], true)
+ 3 APPPATH\Controllers\MainController.php(29): view('students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 15:47:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory1', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-21 15:47:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 15:51:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory1', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-21 15:51:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 15:51:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory1', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-21 15:51:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 15:54:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory1', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-21 15:54:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+ERROR - 2023-09-21 15:55:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory1', 3306, '', 0)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\laragon\www\Lab1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\Lab1\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\Lab1\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\Lab1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\Lab1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\Lab1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\Lab1\app\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\Lab1\system\CodeIgniter.php(919): App\Controllers\MainController->students()
+#7 C:\laragon\www\Lab1\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\Lab1\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Lab1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Lab1\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-21 15:55:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_students`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(25): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 15:56:37 --> Invalid file: "students.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students', [], true)
+ 3 APPPATH\Controllers\MainController.php(29): view('students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 15:56:39 --> Invalid file: "students.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students', [], true)
+ 3 APPPATH\Controllers\MainController.php(29): view('students', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->students()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:06:52 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\MainController.php(64): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:08:31 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\MainController.php(64): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:10:19 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\MainController.php(64): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:10:20 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\MainController.php(64): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:10:20 --> Invalid file: "student.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('student', [], true)
+ 3 APPPATH\Controllers\MainController.php(64): view('student', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:11:53 --> Undefined variable $students
+in APPPATH\Controllers\MainController.php on line 44.
+ 1 APPPATH\Controllers\MainController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-21 16:12:37 --> Call to a member function where() on bool
+in APPPATH\Controllers\MainController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
